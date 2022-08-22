@@ -12,7 +12,14 @@ public class RelationalLogicalOperators
 		System.out.println("j="+j);
 		
 		System.out.println("i > j is " + (i > j));
+		System.out.println("i<j is " + (i<j));
+		System.out.println("i>=j is "+ (i>=j));
+		System.out.println("i<=j is" +(i<=j));
+		System.out.println("i==j is" +(i==j));
+		System.out.println("i !=j is"+(i !=j));
 		
-		System.out.println("");
+		System.out.println("(i<10) && (j<10)is " +((i<10) && (j<10)));
+		System.out.println("(i<10) || (j<10)is"+((i<10)|| (j<10)));
+		
 	}
 }
