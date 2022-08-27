@@ -7,7 +7,7 @@ public class Test
 	{
 		char ch='c';
 		int num=88;
-		ch='num';
+		ch=num;
 	}
 
 }
